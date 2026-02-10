@@ -1,11 +1,34 @@
 {
   "stocks": [
-    { "ticker": "AAPL", "shares": 10 },
-    { "ticker": "MSFT", "shares": 5 }
+    { "ticker": "BABA", "shares": 26.0 },
+    { "ticker": "GOOG", "shares": 15.0 },
+    { "ticker": "AMP", "shares": 8.985 },
+    { "ticker": "AAPL", "shares": 4.2282 },
+    { "ticker": "XYZ", "shares": 7.0 },
+    { "ticker": "BYDDF", "shares": 205.0 },
+    { "ticker": "CSCO", "shares": 37.7308 },
+    { "ticker": "COIN", "shares": 16.0 },
+    { "ticker": "CRLBF", "shares": 235.0 },
+    { "ticker": "ELV", "shares": 5.4394 },
+    { "ticker": "HIG", "shares": 37.8109 },
+    { "ticker": "HYLN", "shares": 6.0 },
+    { "ticker": "NKE", "shares": 19.4941 },
+    { "ticker": "OMC", "shares": 33.3353 },
+    { "ticker": "QXO", "shares": 50.0 },
+    { "ticker": "ROKU", "shares": 7.0 },
+    { "ticker": "TSLA", "shares": 5.0 },
+    { "ticker": "KIM", "shares": 111.0577 },
+    { "ticker": "STAG", "shares": 12.4352 },
+    { "ticker": "TRBCX", "shares": 6.672 },
+    { "ticker": "VGHCX", "shares": 3.645 },
+    { "ticker": "VWIGX", "shares": 19.059 },
+    { "ticker": "DRGTX", "shares": 10.9 }
   ],
   "etfs": [
-    { "ticker": "VOO", "shares": 20 },
-    { "ticker": "VTI", "shares": 15 }
+    { "ticker": "ARKK", "shares": 19.468 },
+    { "ticker": "DFEN", "shares": 133.0231 },
+    { "ticker": "PBT", "shares": 25.0 },
+    { "ticker": "VOO", "shares": 7.3171 }
   ],
   "crypto": [
     { "id": "solana", "symbol": "SOL", "amount": 524.30 },
@@ -33,6 +56,7 @@
     { "label": "Briar Lane Holdings - Mercury (50%)", "amount": 15885.06 },
     { "label": "Cosis Holdings LLC - Mercury (50%)", "amount": 2500.00 },
     { "label": "Jumpman Properties - Mercury (50%)", "amount": 7386.23 },
-    { "label": "2 Cent Data - Mercury (33%)", "amount": 9241.87 }
+    { "label": "2 Cent Data - Mercury (33%)", "amount": 9241.87 },
+    { "label": "Schwab Cash", "amount": 9615.33 }
   ]
 }
