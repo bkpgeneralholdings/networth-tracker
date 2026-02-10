@@ -8,8 +8,17 @@
     { "ticker": "VTI", "shares": 15 }
   ],
   "crypto": [
-    { "id": "bitcoin", "symbol": "BTC", "amount": 0.5 },
-    { "id": "ethereum", "symbol": "ETH", "amount": 2.0 }
+    { "id": "solana", "symbol": "SOL", "amount": 524.30 },
+    { "id": "usd-coin", "symbol": "USDC", "amount": 18847.00 },
+    { "id": "bitcoin", "symbol": "BTC", "amount": 0.2079 },
+    { "id": "ethereum", "symbol": "ETH", "amount": 0.8815 },
+    { "id": "binancecoin", "symbol": "BNB", "amount": 1.5 },
+    { "id": "arbitrum", "symbol": "ARB", "amount": 7250.00 },
+    { "id": "litecoin", "symbol": "LTC", "amount": 12.69 },
+    { "id": "aioz-network", "symbol": "AIOZ", "amount": 9367.64 },
+    { "id": "tron", "symbol": "TRX", "amount": 1025.00 },
+    { "id": "tether", "symbol": "USDT", "amount": 237.45 },
+    { "id": "cardano", "symbol": "ADA", "amount": 771.98 }
   ],
   "cash": [
     { "label": "247 Answering Team (50%)", "amount": 2599.00 },
