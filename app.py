@@ -16,6 +16,15 @@ HOLDINGS_PATH = os.path.join(os.path.dirname(__file__), "holdings.json")
 st.set_page_config(page_title="Net Worth Tracker", page_icon="📈", layout="wide")
 init_db()
 
+# Hide Streamlit branding
+st.markdown("""
+<style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+</style>
+""", unsafe_allow_html=True)
+
 
 def load_holdings() -> dict:
     with open(HOLDINGS_PATH, "r") as f:
