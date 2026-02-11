@@ -1,9 +1,9 @@
 {
   "stocks": [
     { "ticker": "BABA", "shares": 26.0 },
-    { "ticker": "GOOG", "shares": 15.0 },
+    { "ticker": "GOOG", "shares": 28.0 },
     { "ticker": "AMP", "shares": 8.985 },
-    { "ticker": "AAPL", "shares": 4.2282 },
+    { "ticker": "AAPL", "shares": 8.2282 },
     { "ticker": "XYZ", "shares": 7.0 },
     { "ticker": "BYDDF", "shares": 205.0 },
     { "ticker": "CSCO", "shares": 37.7308 },
@@ -22,13 +22,49 @@
     { "ticker": "TRBCX", "shares": 6.672 },
     { "ticker": "VGHCX", "shares": 3.645 },
     { "ticker": "VWIGX", "shares": 19.059 },
-    { "ticker": "DRGTX", "shares": 10.9 }
+    { "ticker": "DRGTX", "shares": 10.9 },
+    { "ticker": "ADI", "shares": 8.0 },
+    { "ticker": "ALC", "shares": 28.0 },
+    { "ticker": "AMAT", "shares": 5.0 },
+    { "ticker": "AMD", "shares": 8.0 },
+    { "ticker": "AMTM", "shares": 57.0 },
+    { "ticker": "AMZN", "shares": 18.0 },
+    { "ticker": "ANET", "shares": 17.0 },
+    { "ticker": "AON", "shares": 10.0 },
+    { "ticker": "ASHGY", "shares": 40.0 },
+    { "ticker": "BDX", "shares": 18.0 },
+    { "ticker": "BRK-B", "shares": 2.0 },
+    { "ticker": "CARR", "shares": 27.0 },
+    { "ticker": "COO", "shares": 23.0 },
+    { "ticker": "CPRT", "shares": 43.0 },
+    { "ticker": "CRM", "shares": 10.0 },
+    { "ticker": "FND", "shares": 9.0 },
+    { "ticker": "HAYW", "shares": 53.0 },
+    { "ticker": "ICE", "shares": 23.0 },
+    { "ticker": "J", "shares": 16.0 },
+    { "ticker": "KEYS", "shares": 11.0 },
+    { "ticker": "KMX", "shares": 17.0 },
+    { "ticker": "LOW", "shares": 7.0 },
+    { "ticker": "META", "shares": 4.0 },
+    { "ticker": "MSFT", "shares": 8.0 },
+    { "ticker": "MSI", "shares": 7.0 },
+    { "ticker": "PCAR", "shares": 25.0 },
+    { "ticker": "PM", "shares": 23.0 },
+    { "ticker": "RYAN", "shares": 22.0 },
+    { "ticker": "SCHW", "shares": 33.0 },
+    { "ticker": "TMO", "shares": 5.0 },
+    { "ticker": "UNVGY", "shares": 106.0 },
+    { "ticker": "V", "shares": 10.0 },
+    { "ticker": "WAT", "shares": 7.0 }
   ],
   "etfs": [
     { "ticker": "ARKK", "shares": 19.468 },
     { "ticker": "DFEN", "shares": 133.0231 },
     { "ticker": "PBT", "shares": 25.0 },
-    { "ticker": "VOO", "shares": 7.3171 }
+    { "ticker": "VOO", "shares": 7.3171 },
+    { "ticker": "IGIB", "shares": 94.0 },
+    { "ticker": "IGSB", "shares": 121.0 },
+    { "ticker": "SPTS", "shares": 43.0 }
   ],
   "crypto": [
     { "id": "solana", "symbol": "SOL", "amount": 524.30 },
@@ -57,6 +93,7 @@
     { "label": "Cosis Holdings LLC - Mercury (50%)", "amount": 2500.00 },
     { "label": "Jumpman Properties - Mercury (50%)", "amount": 7386.23 },
     { "label": "2 Cent Data - Mercury (33%)", "amount": 9241.87 },
-    { "label": "Schwab Cash", "amount": 9615.33 }
+    { "label": "Schwab Cash", "amount": 9615.33 },
+    { "label": "IBKR Cash + Money Market", "amount": 4063.37 }
   ]
 }
