@@ -1,6 +1,7 @@
 from __future__ import annotations
 import json
 import base64
+import os
 import requests
 import streamlit as st
 
@@ -10,7 +11,10 @@ GITHUB_API = "https://api.github.com"
 
 
 def _get_token() -> str:
-    return st.secrets["GITHUB_TOKEN"]
+    try:
+        return st.secrets["GITHUB_TOKEN"]
+    except Exception:
+        return os.environ["GITHUB_TOKEN"]
 
 
 def _get_headers() -> dict:
