@@ -57,16 +57,22 @@ def init_db():
 
 def save_snapshot(date: str, total_value: float, breakdown: dict):
     """Upsert a snapshot for the given date into GitHub."""
-    snapshots, sha = _fetch_file()
-    # Remove existing entry for this date if present
-    snapshots = [s for s in snapshots if s["date"] != date]
-    snapshots.append({
-        "date": date,
-        "total_value": total_value,
-        "breakdown": breakdown,
-    })
-    snapshots.sort(key=lambda s: s["date"])
-    _write_file(snapshots, sha)
+    for attempt in range(3):
+        snapshots, sha = _fetch_file()
+        snapshots = [s for s in snapshots if s["date"] != date]
+        snapshots.append({
+            "date": date,
+            "total_value": total_value,
+            "breakdown": breakdown,
+        })
+        snapshots.sort(key=lambda s: s["date"])
+        try:
+            _write_file(snapshots, sha)
+            return
+        except requests.HTTPError as e:
+            if e.response.status_code == 409 and attempt < 2:
+                continue
+            raise
 
 
 def get_all_snapshots() -> list[dict]:
